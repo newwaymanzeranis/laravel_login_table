@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @include('layout.partial.head');
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+ @include('layout.partial.nav');
+  
+
+  <!-- Content Wrapper. Contains page content -->
+
+@yeald('content')
+
+ 
+  <!-- /.content-wrapper -->
+@include('layout.partial.footer')
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+@include('layout.partial.footerscript')
+</body>
+</html>
